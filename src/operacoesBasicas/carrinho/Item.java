@@ -1,4 +1,4 @@
-package operacoesBasicas.carinho;
+package operacoesBasicas.carrinho;
 
 public class Item {
     private String nome;
