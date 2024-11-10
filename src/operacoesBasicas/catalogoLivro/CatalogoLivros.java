@@ -24,9 +24,9 @@ public class CatalogoLivros {
                     livrosAutor.add(l);
                 }
             }
-            if(!livrosAutor.isEmpty()){
+            if (!livrosAutor.isEmpty()) {
                 System.out.println(livrosAutor);
-            }else{
+            } else {
                 System.out.println("Nenhum livro encontrado!");
             }
 
@@ -46,9 +46,9 @@ public class CatalogoLivros {
                     livrosAno.add(l);
                 }
             }
-            if(!livrosAno.isEmpty()){
+            if (!livrosAno.isEmpty()) {
                 System.out.println(livrosAno);
-            }else{
+            } else {
                 System.out.println("Nenhum livro encontrado!");
             }
 
@@ -66,11 +66,12 @@ public class CatalogoLivros {
             for (Livro l : livroList) {
                 if (l.getTitulo().equalsIgnoreCase(titulo)) {
                     livrosTitulo.add(l);
+                    break;
                 }
             }
-            if(!livrosTitulo.isEmpty()){
+            if (!livrosTitulo.isEmpty()) {
                 System.out.println(livrosTitulo);
-            }else{
+            } else {
                 System.out.println("Titulo não encontrado!");
             }
 
